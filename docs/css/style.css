@@ -1,0 +1,29 @@
+.principal{
+    background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/banner1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+}
+
+.principal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    top: -50px;
+}
+
+.login {
+    position: relative;
+    padding-top: 50px;
+
+}
+
